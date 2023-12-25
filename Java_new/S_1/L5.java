@@ -13,12 +13,13 @@ import java.util.Scanner;
  */
 public class L5 {
     public static void main(String[] args) {
-        Scanner iScanner = new Scanner(System.in);
-        System.out.println("Введите а: ");
-        int a = iScanner.nextInt();
-        System.out.println("Введите b: ");
-        int b = iScanner.nextInt();
-        System.out.println(pow(a, b));
+        try (Scanner iScanner = new Scanner(System.in)) {
+            System.out.println("Введите а: ");
+            int a = iScanner.nextInt();
+            System.out.println("Введите b: ");
+            int b = iScanner.nextInt();
+            System.out.println(pow(a, b));
+        }
 
 }
 

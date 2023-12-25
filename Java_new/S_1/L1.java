@@ -1,7 +1,6 @@
-package S_1;
+// package S_1;
 
-// import java.time.LocalTime;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 /*
 В консоли запросить имя пользователя. 
@@ -32,16 +31,16 @@ import java.util.Scanner;
 // }
 
 
-public class L1 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Укажите Ваше имя: ");
-        String name = scanner.nextLine();
-        System.out.println("Укажите возраст: ");
-        int age = scanner.nextInt();
-        System.out.println("Имя: " + name + ", возраст: " + age);
-    }
+// public class L1 {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.println("Укажите Ваше имя: ");
+//         String name = scanner.nextLine();
+//         System.out.println("Укажите возраст: ");
+//         int age = scanner.nextInt();
+//         System.out.println("Имя: " + name + ", возраст: " + age);
+//     }
     
-}
+// }
 
 

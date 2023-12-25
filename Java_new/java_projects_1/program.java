@@ -1,8 +1,8 @@
-package java_projects_1;
+// package java_projects_1;
 
-/**
- * program
- */
+
+// program
+
 // public class program {
 // public static void main(String[] args) {
 // System.out.println("Hello World");
@@ -525,20 +525,20 @@ package java_projects_1;
 
 
 // Вариант построчно
-import java.io.*;
-/**
-public class \program {
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new FileReader("file.txt"));
-        String str;
-        while ((str = br.readLine()) != null) {
-            System.out.printf("== %s ==", str);
-        }
-        br.close();
-    }
+//import java.io.*;
+
+// public class \program {
+//     public static void main(String[] args) throws Exception {
+//         BufferedReader br = new BufferedReader(new FileReader("file.txt"));
+//         String str;
+//         while ((str = br.readLine()) != null) {
+//             System.out.printf("== %s ==", str);
+//         }
+//         br.close();
+//     }
     
-}
-/*
+// }
+
 
 
 
